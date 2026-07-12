@@ -6,8 +6,8 @@
    Nikah: Wednesday, 20 May 2026, 5:30 PM IST
 ══════════════════════════════════════════ */
 
-// ── Wedding date target ────────────────────
-const WEDDING_DATE = new Date('2026-05-20T17:30:00+05:30');
+// ── Wedding date target (updated to 24 Aug 2026, 12:00 PM IST)
+const WEDDING_DATE = new Date('2026-08-24T12:00:00+05:30');
 
 // ── DOM refs ───────────────────────────────
 const splash        = document.getElementById('splash');
