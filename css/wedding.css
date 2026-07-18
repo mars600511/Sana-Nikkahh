@@ -1105,3 +1105,16 @@ img { display: block; }
   #details.revealed { transform: translateX(-50%) translateY(0) !important; }
   #details:not(.revealed) { transform: translateX(-50%) translateY(100%) !important; }
 }
+/* Target the image inside the logo container */
+.splash-title-img.blended-logo {
+  /* This makes black/dark parts of the image opaque, and white parts transparent */
+  mix-blend-mode: screen;
+
+  /* Ensure the image respects the Figma dimensions */
+  width: 224px;
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Prevent overflow on small screens */
+  
+  /* Optional: Add a slight drop shadow to ensure it pops if the background changes */
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3)); 
+}
